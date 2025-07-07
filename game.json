@@ -1,0 +1,66 @@
+{
+  "firstLayout": "MainScene",
+  "layouts": [
+    {
+      "name": "MainScene",
+      "objects": [
+        {
+          "name": "Player",
+          "type": "Sprite",
+          "x": 400,
+          "y": 500,
+          "width": 64,
+          "height": 64,
+          "animations": [],
+          "variables": []
+        },
+        {
+          "name": "Bullet",
+          "type": "Sprite",
+          "animations": [],
+          "variables": []
+        },
+        {
+          "name": "Asteroid",
+          "type": "Sprite",
+          "animations": [],
+          "variables": []
+        },
+        {
+          "name": "Joystick",
+          "type": "PanelSprite",
+          "variables": []
+        },
+        {
+          "name": "FireButton",
+          "type": "Sprite",
+          "x": 700,
+          "y": 500,
+          "animations": [],
+          "variables": []
+        },
+        {
+          "name": "ScoreText",
+          "type": "Text",
+          "string": "Score: 0",
+          "x": 10,
+          "y": 10
+        },
+        {
+          "name": "LivesText",
+          "type": "Text",
+          "string": "Lives: 3",
+          "x": 10,
+          "y": 40
+        }
+      ],
+      "layers": []
+    }
+  ],
+  "properties": {
+    "orientation": "landscape",
+    "packageName": "com.farhan.asteroidblaster",
+    "name": "Asteroid Blaster",
+    "version": "1.0.0"
+  }
+}
